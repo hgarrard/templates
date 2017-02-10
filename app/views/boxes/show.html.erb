@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<div class="panel panel-default">
+
+<div class="panel-heading">box</div>
+
+<div class="panel-body">
+
+
+<p>
+  <strong>Box:</strong>
+  <%= @box.box %>
+</p>
+
+
+<p>
+  <strong>Contents:</strong>
+  <%= @box.contents %>
+</p>
+
+
+</div>
+
+<div class="panel panel-footer">
+
+<%= link_to 'Edit', edit_box_path(@box) ,class:"btn btn-sm btn-info" %> |
+<%= link_to 'Back', boxes_path , class:"btn btn-sm btn-warning" %>
+
+</div></div>
